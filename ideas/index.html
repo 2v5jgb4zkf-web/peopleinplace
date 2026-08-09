@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ideas · People in Place</title>
+  <meta name="description" content="Ideas by Shelby — longer thought, one stream." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="logo" href="/">people <span>in place</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/ideas/" aria-current="page">Ideas</a>
+        <a class="btn-nav" href="/contact/">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-intro">
+      <h1>Ideas</h1>
+      <p>
+        Longer thoughts in one place. Newest first — no shelves to choose between.
+      </p>
+    </div>
+
+    <section class="section" style="padding-top: 0.5rem;">
+      <article class="card">
+        <h3><a href="/ideas/posts/welcome.html">On opening this place</a></h3>
+        <p class="meta">9 August 2026</p>
+        <p>
+          Why a site of one’s own: room for considered thought, and a quiet
+          way to get in touch outside the social platforms.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <span>© <span id="y"></span> Shelby E. Leslie · peopleinplace.ca</span>
+      <span>
+        <a href="/ideas/">Ideas</a> ·
+        <a href="/contact/">Get in touch</a>
+      </span>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
