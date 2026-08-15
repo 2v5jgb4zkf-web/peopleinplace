@@ -282,6 +282,64 @@ a:hover {
   margin-top: 0.8rem;
 }
 
+/* Purpose pair — what this site is for */
+
+.purpose {
+  padding: 0 0 2.75rem;
+}
+
+.purpose-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .purpose-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.purpose-card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.45rem 1.55rem 1.55rem;
+}
+
+.purpose-card .kicker {
+  display: block;
+  font-size: 0.92rem;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--accent);
+  margin: 0 0 0.35rem;
+}
+
+.purpose-card h2 {
+  font-family: var(--font);
+  font-size: 1.45rem;
+  font-weight: 600;
+  margin: 0 0 0.55rem;
+  letter-spacing: -0.01em;
+}
+
+.purpose-card p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 1.12rem;
+}
+
+.purpose-card a.more {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
 /* About strip */
 
 .about-strip {
