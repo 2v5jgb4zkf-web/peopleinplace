@@ -570,6 +570,21 @@ textarea {
   margin: 0 0 1.45rem;
 }
 
+.prose .tagline {
+  margin-top: 2.4rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  color: var(--muted, #6b7280);
+  font-style: italic;
+}
+
+.prose .stamp {
+  margin-bottom: 0;
+  font-size: 0.92rem;
+  color: var(--muted, #6b7280);
+}
+
+
 .prose h2 {
   font-size: 1.45rem;
   font-weight: 600;
